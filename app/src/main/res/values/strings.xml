@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Location</string>
+
+    <string name="settings">Settings</string>
+
+    <!--fragment titles -->
+    <string name="user_locations">Locations Update</string>
+    <string name="user_activities">Activities Update</string>
+    <string name="user_geofences">Geofences Update</string>
+
+    <!-- Location Update -->
+    <string name="request_activity_update">Request Updates</string>
+    <string name="remove_activity_updates">Remove Updates</string>
+
+    <!-- Geofence updates -->
+    <string name="add_geofence">Add Geofences</string>
+    <string name="remove_geofences">Remove Geofences</string>
+
+    <!--geofence action-->
+    <string name="entered_geofence">Entered Geofence</string>
+    <string name="exited_geofence">Exited Geofence</string>
+    <string name="unknown_geofence_action">Unknown Geofence Action</string>
+
+    <!--Geofence permissions -->
+    <string name="insufficient_permissions">insufficient_permissions</string>
+    <string name="geofences_added">geofences_added</string>
+    <string name="geofences_removed">geofences_removed</string>
+    <string name="permission_denied_explanation">permission denied</string>
+    <string name="permission_rationale">permission_rationale</string>
+
+    <!--geofence error messages -->
+    <string name="too_many_geofences">Too many Geofences events</string>
+    <string name="geofence_too_many_pending_intent">Geofence too many pending intent</string>
+    <string name="unknown_geofence_error">Unknown Geofence Error</string>
+    <string name="geofence_not_available">Geofence Not Available</string>
+    <string name="transition_invalid_type">Geofence Transition Invalid Type</string>
+
+    <!-- Activity Recognition Update -->
+    <string name="detected_activities_title">Detected Activities </string>
+    <string name="in_vehicle">In a Vehicle</string>
+    <string name="on_bicycle">On a Bicycle</string>
+    <string name="on_foot">On Foot</string>
+    <string name="running">Running</string>
+    <string name="still">Still</string>
+    <string name="tilting">Tilting</string>
+    <string name="unknown">Unknown Activity</string>
+    <string name="walking">Walking</string>
+    <string name="unIdentifiable_activity">Unidentifiable Activity: %1$d</string>
+    <string name="not_connected">GoogleClientApi not Connected. Try again</string>
+</resources>
